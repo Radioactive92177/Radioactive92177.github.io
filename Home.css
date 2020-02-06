@@ -1,19 +1,29 @@
-.body{
-    background: brown;
-    padding: 0;
-    margin: 0;
-    
+body{
+    background-image: linear-gradient(to right,#ff5f6d,#ffc371);
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background: black;
+    border-radius: 100px;
+    text-align: center;
+    width: 550px;
+    margin-left: 423px;
 }
 .nav ul li{
     list-style: none;
-    display: inline-flex;
-    margin: 15px;
+    display: inline-block;
+    margin: 10px;
     padding: 15px;
-    background: orangered;
-    border-radius: 15px;
+    background-image: linear-gradient(#f85032,#e73827);
+    border-radius: 100px;
 }
 .nav ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav ul li:hover{
+    background-image: linear-gradient(to right,#67B26F,#4ca2cd);
 }
