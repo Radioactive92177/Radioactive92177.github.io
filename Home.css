@@ -25,7 +25,7 @@ body{
     padding: 15px;
     text-decoration: none;
     color: black;
-    font-size: large;
+    font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav ul li:hover,.nav ul li a:hover{
