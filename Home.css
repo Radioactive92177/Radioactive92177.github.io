@@ -28,13 +28,17 @@ body{
     font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.nav ul li:hover,.nav ul li a:hover{
+.nav ul li:hover{
     background-image: linear-gradient(to right,#67B26F,#4ca2cd);
     transition: 0.6s ease;
     border-radius: 100px;
-    color: white;
+    color: white !important;
 }
 .nav ul:hover{
     border-radius: 100px;
     transition: 0.6s ease;
+}
+
+li:hover a{
+    color: aliceblue !important;
 }
